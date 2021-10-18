@@ -1,0 +1,113 @@
+/*RESETEO*/
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+/*Style site*/
+
+/*Body-img ---*/
+body {
+  background-image: url(/assets/fondo-img-azul.jpg);
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*CONTENEDOR PRINCIPAL*/
+main {
+  width: 770px;
+  min-width: 320px;
+  margin-top: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  color: aliceblue;
+}
+
+/*Header*/
+.header-contend {
+  text-align: center;
+  margin-bottom: 1.4rem;
+}
+.header-contend h1 {
+  font-size: 1.8rem;
+}
+.header-contend p {
+  font-size: 1.2rem;
+}
+
+/*FORMULARIO*/
+.form-contend {
+  background-color: #2a284644;
+  padding: 2.4rem;
+
+  width: 100%;
+}
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1.2rem;
+}
+.form-inputs label {
+  margin-bottom: 0.2rem;
+}
+.input-date {
+  border: none;
+  height: 2.4rem;
+  border-radius: 0.3rem;
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+.inputs-date {
+  margin-top: 8px;
+}
+.input-radio,
+.input-checkbox {
+  margin-right: 6px;
+}
+.input-textarea {
+  height: 8rem;
+  resize: none;
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+.btn-submit {
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  border-radius: 0;
+  background-color: #37af65;
+  height: 3rem;
+}
+.btn-submit:hover {
+  opacity: 0.7;
+  background-color: #37af6488;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 350px) {
+  header {
+    width: 70%;
+  }
+}

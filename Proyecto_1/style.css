@@ -1,0 +1,76 @@
+/*RESETEO*/
+html {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*STYLE SITE*/
+main {
+  background-color: #eeeeee;
+  margin: 1.5rem 0.5rem;
+}
+.title {
+  padding: 1rem 0;
+  margin: 1rem 0;
+}
+.title h1 {
+  font-size: 2.5rem;
+}
+.contenedor-img {
+  background-color: #ffffff;
+  margin: 0 0.8rem;
+  padding: 00.5rem 0;
+}
+
+.information {
+  padding-top: 2rem;
+  padding-bottom: 1px;
+}
+.information h3 {
+  margin: 2.9rem 0;
+}
+ul {
+  max-width: 600px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+ul li {
+  margin: 16px 0;
+}
+
+ul li span {
+  font-weight: bold;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  text-align: center;
+  margin: 6rem auto;
+}
+
+@media (max-width: 470px) {
+  main {
+    margin: 0;
+  }
+  ul {
+    padding-right: 1rem;
+  }
+}
